@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* fallback */
+* {
+  font-family: 微软雅黑;
+  font-size: 14px;
+}
+
+span {
+  vertical-align: sub;
+}
+
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+i {
+  font-size: inherit;
+  width: 1em;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.user-avatar {
+  position: absolute;
+  right: 10mm;
+  top: 10mm;
+  width: 40mm;
+}
+
+.item-title {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5019607843);
+  vertical-align: middle;
+}
+
+.menu-title {
+  margin: 5px 0;
+}
+
+.menu-content {
+  margin-left: 1.5em;
+}
+
+.page {
+  position: absolute;
+  width: 210mm;
+  height: 297mm;
+  display: flex;
+  flex-direction: column;
+}
+.page .content {
+  flex-grow: 1;
+  margin: 10mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page .content > * {
+  flex-shrink: 1;
+}
+.page .content .user-info > p {
+  line-height: 24px;
+}
+.page .content .honor table tr {
+  line-height: 14px;
+}
+.page .content .honor table tr td {
+  font-size: 14px;
+}
+.page .content .honor table tr :first-child {
+  min-width: 80px;
+}
+
+/*# sourceMappingURL=profile.css.map */
